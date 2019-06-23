@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    background: white;
+}
+.box{
+    width: 300px;
+    padding:40px;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+    background:antiquewhite;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid teal;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.box input[type="text"],.box input[type="password"]{ 
+    width: 200px;
+    background: none;
+    display:block;
+    margin:5px auto;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 14px 10px;
+    outline: none;
+    color: antiquewhite;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width:200px;
+    border: 3px solid teal;
+    color: black
+}
+.box input[type="submit"]{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100px;
+    background-color: teal;
+    display:block;
+    margin:5px auto;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.box input[type="submit"]:hover{
+    background-color:teal;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+}
+.forgot{
+    color: red
+}
+.join{
+    color: darkgreen;
+}
