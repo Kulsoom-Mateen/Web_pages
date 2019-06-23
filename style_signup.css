@@ -1,0 +1,29 @@
+.sign{
+    width: 500px;
+    padding:40px;
+    position:absolute;
+    margin:80px 350px;
+    transform: translate(0%,0%); 
+    background:antiquewhite;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid teal;
+}
+.sign input[type="text"]{
+    width: 200px;
+    background: none;
+    display:block;
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 14px 10px;
+    outline: none;
+    color:black;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+h6{
+    margin-left: 60px;
+}
